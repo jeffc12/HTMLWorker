@@ -33,4 +33,4 @@ npm run start
 - MongoDB
 
 ## Screenshot
-![Screenshot](https://giphy.com/gifs/XvwgIMVGMxETm/html5)
+![One](https://media.giphy.com/media/XvwgIMVGMxETm/giphy.gif)
