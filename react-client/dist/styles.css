@@ -1,0 +1,94 @@
+
+.primary-text {
+  color: rgba(255, 255, 255, 1);
+}
+
+.secondary-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 200;
+}
+
+.disabled-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.highlight-text {
+  color: rgb(29, 233, 182);
+}
+
+
+.btn-primary {
+    background: #00aced !important;
+}
+
+a {
+  color: #1DE9B6;
+}
+
+a:hover {
+  color: #00BFA5;
+}
+
+img {
+  /*border: 1px solid #000000;*/
+}
+
+/* *************************
+* ELEMENT SPECIFIC PROPERTIES
+************************** */
+
+body {
+  background: #FFFFFF;
+}
+
+li {
+  margin-left: 20px;
+}
+
+
+/* *************************
+* NAVBAR PROPERTIES
+************************** */
+.transition.fixed-top {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  transition: background-color 1s ease 0s;
+}
+
+.transition.fixed-top.opaque {
+  background-color: rgb(33, 33, 33);
+  border: none;
+  transition: background-color 1s ease 0s;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #212121 !important;
+  }
+
+
+  .fab {
+    margin: 0px !important;
+    top: auto !important;
+    right: 20px !important;
+    bottom: 20px !important;
+    left: auto !important;
+    z-index: 1 !important;
+    position: fixed !important;
+  }
+
+  .card-deck {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px;
+  }
+
+  li {
+    margin-left: 0;
+  }
+
+}
+
+
+
