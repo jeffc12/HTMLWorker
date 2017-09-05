@@ -1,4 +1,4 @@
-# HTMLWorker
+# HTMLWorker for Massdrop
 
 
 ### LIVE DEMO
